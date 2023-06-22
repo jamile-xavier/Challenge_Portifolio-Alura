@@ -1,0 +1,60 @@
+.professional__experience {
+  padding: 1.6rem;
+}
+
+.professional__experience h2 {
+  font-size: var(--font-size-h2);
+  padding-bottom: 3.2rem;
+  text-align: center;
+}
+
+.decodificador {
+  height: 25.1rem;
+  width: 29.6rem;
+}
+
+.decodificador img {
+  height: 14.4rem;
+  width: 29.6rem;
+}
+
+.decodificador h3,
+p {
+  padding: 0.4rem;
+}
+
+.decodificador p {
+  padding-bottom: 2rem;
+}
+
+.repository,
+.demonstration {
+  margin-top: 5rem;
+  padding: 1.2rem 2rem;
+  text-decoration: none;
+}
+
+.repository {
+  background-color: #dde7e7;
+  border: 0.2rem solid #027777;
+  color: #027777;
+}
+
+.demonstration {
+  background-color: #027777;
+  border: 0.2rem solid #027777;
+  color: #dde7e7;
+  margin-left: 1.6rem;
+}
+
+@media (min-width: 768px) {
+  .decodificador {
+    height: 42.7rem;
+    width: 70.4rem;
+  }
+
+  .decodificador img {
+    height: 32rem;
+    width: 70.4rem;
+  }
+}

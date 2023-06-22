@@ -1,0 +1,18 @@
+.about {
+  background-color: var(--color-secondary);
+  padding: 1.6rem;
+}
+
+.about h2 {
+  font-size: var(--font-size-h2);
+  padding-bottom: 1.6rem;
+}
+
+.about p {
+  font-size: var(--font-size-p);
+}
+
+.about img {
+  height: 5.2rem;
+  width: 14rem;
+}

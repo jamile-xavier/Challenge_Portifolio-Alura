@@ -1,0 +1,31 @@
+.skills {
+  padding: 1.6rem;
+}
+
+.skills h2 {
+  font-size: var(--font-size-h2);
+  padding-bottom: 3.2rem;
+  text-align: center;
+}
+
+.languages {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-items: center;
+}
+
+.languages > figure {
+  align-items: center;
+  background-color: rgb(193, 226, 236);
+  display: flex;
+  flex-direction: column;
+  height: 11.8rem;
+  justify-content: center;
+  margin-bottom: 1.6rem;
+  width: 15.6rem;
+}
+
+.languages > figure > img {
+  height: 3.7rem;
+  width: 2.4rem;
+}
