@@ -44,16 +44,22 @@
     </header>
     <main>
       <section class="profile">
-        <img
-          src="./assets/images/Foto-perfil.jpeg"
-          alt="Foto de perfil Jamile"
-        />
-        <h1>Olá, meu nome é Jamile Xavier Mendonça e sou desenvolvedora web</h1>
-        <p>
-          Atualmente estou participando do projeto Oracle One na Alura na trilha
-          de desenvolvimento front-end.
-        </p>
-        <div class="social__media">
+        <div class="introduction">
+          <img
+            src="./assets/images/Foto-perfil.jpeg"
+            alt="Foto de perfil Jamile"
+          />
+          <div class="introduction__text">
+            <h1>
+              Olá, meu nome é Jamile Xavier Mendonça e sou desenvolvedora web
+            </h1>
+            <p>
+              Atualmente estou participando do projeto Oracle One na Alura na
+              trilha de desenvolvimento front-end.
+            </p>
+          </div>
+        </div>
+        <section class="social__media">
           <div class="github">
             <img src="./assets/images/github.png" alt="imagem github" /><a
               href="https://github.com/jamile-mendonca"
@@ -78,7 +84,7 @@
               >Currículo</a
             >
           </div>
-        </div>
+        </section>
       </section>
       <section class="about">
         <h2>Sobre mim</h2>
@@ -167,22 +173,28 @@
       <section class="professional__experience">
         <h2>Experriência Profissional</h2>
         <div class="decodificador">
-          <img
-            src="./assets/images/decodificador.png"
-            alt="Imagem do projeto decodificador de texto"
-          />
-          <h3>Decodificador de texto</h3>
-          <p>Challenge Alura Codificador</p>
-          <a
-            href="https://github.com/jamile-mendonca/Challenge-Decodificador-Alura"
-            class="repository"
-            >Repositório</a
-          >
-          <a
-            href="https://jamile-mendonca.github.io/Challenge-Decodificador-Alura/"
-            class="demonstration"
-            >Ver demo</a
-          >
+          <div class="decodificador__image">
+            <img
+              src="./assets/images/decodificador.png"
+              alt="Imagem do projeto decodificador de texto"
+            />
+          </div>
+          <div class="decodificador__text__button">
+            <h3>Decodificador de texto</h3>
+            <p>Challenge Alura Codificador</p>
+            <div class="decodificador__button">
+              <a
+                href="https://github.com/jamile-mendonca/Challenge-Decodificador-Alura"
+                class="repository"
+                >Repositório</a
+              >
+              <a
+                href="https://jamile-mendonca.github.io/Challenge-Decodificador-Alura/"
+                class="demonstration"
+                >Ver demo</a
+              >
+            </div>
+          </div>
         </div>
       </section>
       <section class="contact">
@@ -192,29 +204,31 @@
             alt="Imagem de um telefone fixo"
           />
         </div>
-        <h2>Contato</h2>
-        <p>
-          Quer entrar em contato comigo?<br />
-          Preencha o formulário ao lado e entrarei em contato o mais rápido
-          possível.
-        </p>
-        <form>
-          <label for="name">Nome</label>
-          <input type="text" id="name" />
-          <label for="email">E-mail</label>
-          <input type="email" id="email" />
+        <div class="form__contact">
+          <h2>Contato</h2>
+          <p>
+            Quer entrar em contato comigo?<br />
+            Preencha o formulário ao lado e entrarei em contato o mais rápido
+            possível.
+          </p>
+          <form>
+            <label for="name">Nome</label>
+            <input type="text" id="name" />
+            <label for="email">E-mail</label>
+            <input type="email" id="email" />
 
-          <input type="text" id="subject" placeholder="Assunto" />
+            <input type="text" id="subject" placeholder="Assunto" />
 
-          <textarea
-            name="message"
-            id="message"
-            cols="30"
-            rows="10"
-            placeholder="Mensagem"
-          ></textarea>
-        </form>
-        <button type="submit">Enviar mensagem</button>
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Mensagem"
+            ></textarea>
+          </form>
+          <button type="submit">Enviar mensagem</button>
+        </div>
       </section>
     </main>
     <footer>

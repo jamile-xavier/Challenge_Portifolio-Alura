@@ -61,3 +61,14 @@
     width: 70.4rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .contact {
+    display: flex;
+  }
+
+  .img__phone {
+    display: block;
+    margin-right: 2rem;
+  }
+}

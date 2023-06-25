@@ -17,3 +17,10 @@
 .profile p {
   font-size: 1.4rem;
 }
+
+@media (min-width: 768px) {
+  .introduction {
+    display: flex;
+    align-items: center;
+  }
+}

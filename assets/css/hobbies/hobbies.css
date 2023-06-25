@@ -29,3 +29,11 @@
   height: 3.7rem;
   width: 2.4rem;
 }
+
+@media (min-width: 1024px) {
+  .hobbies__activies {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+}

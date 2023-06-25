@@ -58,3 +58,28 @@ p {
     width: 70.4rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .decodificador {
+    display: flex;
+    gap: 1rem;
+    width: 40rem;
+  }
+
+  .decodificador__text__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .decodificador__button {
+    display: flex;
+  }
+
+  .repository,
+  .demonstration {
+    height: 5rem;
+    width: 13.5rem;
+    text-align: center;
+  }
+}
