@@ -5,3 +5,7 @@ O Challenge II possui o objetivo de realizar uma apresentação pessoal e demons
 
 - HTML
 - CSS
+
+🥇 CONQUISTAS
+
+<img src="./assets/images/Badge.png">
